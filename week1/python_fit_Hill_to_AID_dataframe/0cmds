@@ -1,8 +1,0 @@
-
-# build table of fit parameters for AID1559 data
-python week1_drc_aid1559_v1.3.py 1> fit_params.csv 2> fit_params.err &
-
-
-# merge my fit params with the original AID1559 data set
-python add_fit_params_to_AID_dataframe.py 
-

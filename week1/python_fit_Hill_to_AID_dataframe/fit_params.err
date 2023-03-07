@@ -1,8 +1,0 @@
-week1_drc_aid1559_v1.2.py:15: RuntimeWarning: invalid value encountered in power
-  return( D + (A-D) / (1.0+((C/xdata)**B)) )
-week1_drc_aid1559_v1.2.py:15: RuntimeWarning: overflow encountered in power
-  return( D + (A-D) / (1.0+((C/xdata)**B)) )
-week1_drc_aid1559_v1.2.py:85: RuntimeWarning: Mean of empty slice
-  MSE = np.nanmean(SE) # mean squared errors
-week1_drc_aid1559_v1.2.py:87: RuntimeWarning: Degrees of freedom <= 0 for slice.
-  Rsquared = 1.0 - (np.nanvar(absError) / np.nanvar(y))
