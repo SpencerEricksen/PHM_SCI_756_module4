@@ -1,0 +1,10 @@
+week1_drc_15examples_v1.3.py:15: RuntimeWarning: invalid value encountered in power
+  return( D + (A-D) / (1.0+((C/xdata)**B)) )
+week1_drc_15examples_v1.3.py:15: RuntimeWarning: invalid value encountered in power
+  return( D + (A-D) / (1.0+((C/xdata)**B)) )
+week1_drc_15examples_v1.3.py:15: RuntimeWarning: invalid value encountered in power
+  return( D + (A-D) / (1.0+((C/xdata)**B)) )
+week1_drc_15examples_v1.3.py:15: RuntimeWarning: invalid value encountered in power
+  return( D + (A-D) / (1.0+((C/xdata)**B)) )
+week1_drc_15examples_v1.3.py:15: RuntimeWarning: invalid value encountered in power
+  return( D + (A-D) / (1.0+((C/xdata)**B)) )

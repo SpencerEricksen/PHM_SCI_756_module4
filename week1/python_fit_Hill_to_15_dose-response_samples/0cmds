@@ -1,0 +1,8 @@
+
+# build table of fit parameters for 15 dose-response samples
+python week1_drc_15examples_v1.3.py 1> fit_params.csv 2> fit_params.err
+
+# add Hill fit params to data set
+python add_fit_params_to_AID_dataframe.py 
+
+
