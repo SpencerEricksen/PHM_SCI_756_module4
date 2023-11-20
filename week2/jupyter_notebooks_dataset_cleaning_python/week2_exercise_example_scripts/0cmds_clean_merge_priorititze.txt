@@ -1,0 +1,33 @@
+# clean primary data from AID 1460 (primary screen)
+# sort and extract unique hits based on Fit_CurveClass, Max Response, and Potency
+#  -2.2 < 'Fit_CurveClass' <= 1.0
+# 'Max_Response' < -60.0
+# 'Potency' <= 5.0
+
+python clean_dataframe_1460_prioritize_hits.py
+
+
+
+# clean secondary data from AID 1468 (secondary, orthogonal screen)
+# sort and extract unique hits based on Fit_CurveClass, Max Response, and Potency
+#  -2.2 < 'Fit_CurveClass' <= 1.0
+# 'Max_Response' < -40.0
+# 'Potency' <= 15.0
+
+python clean_dataframe_1468_prioritize_hits.py
+
+
+
+# merge data from primary and secondary screen, keep 
+# intersection of hits (cpds that hit in both assays)
+
+python merge_1460_1468_clean.py
+
+
+
+
+# clean data from counterscreen (raw fluorescence)
+# prioritize cpds that are active in 1460 and 1468
+# but give Fit_CurveClass == 4.0 in 1463 (not absorber or fluorescent)
+
+python clean_dataframe_1468_prioritize_hits.py
