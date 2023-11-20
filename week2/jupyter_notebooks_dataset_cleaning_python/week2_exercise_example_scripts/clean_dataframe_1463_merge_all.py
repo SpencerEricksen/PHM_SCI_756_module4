@@ -5,7 +5,7 @@ import pandas as pd
 dfx = pd.read_csv('./data/merged_data_1460_1468.csv', low_memory=False )
 
 # load raw counterscreen data and clean
-df1 = pd.read_csv('AID_1463_datatable_week2_exercise.csv', low_memory=False )
+df1 = pd.read_csv('./data/AID_1463_datatable_week2_exercise.csv.gz', low_memory=False )
 
 # remove header rows
 df2 = df1.iloc[5:]

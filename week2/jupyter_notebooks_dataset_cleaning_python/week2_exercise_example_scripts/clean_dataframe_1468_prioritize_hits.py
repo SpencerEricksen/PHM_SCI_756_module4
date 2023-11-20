@@ -2,7 +2,7 @@
 import pandas as pd
 
 # load data
-df = pd.read_csv('./data/AID_1468_datatable_week2_exercise.csv', low_memory=False )
+df = pd.read_csv('./data/AID_1468_datatable_week2_exercise.csv.gz', low_memory=False )
 
 # get rid of extra header rows 0-4
 df2 = df.iloc[5:]
